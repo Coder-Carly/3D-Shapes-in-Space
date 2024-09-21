@@ -5,9 +5,10 @@
      </script>   
     </head>
     <body>
-<a-scene background = "color: black">
+<a-scene background = "color: #ADD8E6">
+    <a-entity light = "type: point; color:yellow; intensity: 9; emissive: #f9cf01" position="0 11 0"></a-entity>
     <a-box position = "0 4 -5" color ="red" depth="2" height="2.5" width="2.5"></a-box> 
-    <a-sphere position = "-22 8 -5" color ="blue" radius ="4.5"> </a-sphere>
+    <a-sphere position="-22 8 -5" color="blue" radius="4.5" material="color: #ff0000; emissive: #c3cd42" geometry=""> </a-sphere>
     <a-dodecahedron position = " 7 -2 -2" radius= "3.5" color= "magenta"></a-dodecahedron>
     <a-cone position = "-11 -9 3" color = "green" height = "4.5"> </a-cone>
     <a-cylinder position = "9 5 3" color = "purple" height = "5" radius= "2.5"> </a-cylinder>
@@ -16,8 +17,9 @@
     <a-tetrahedron position = "-22 -55 -11" color = "lime" radius = "33"> </a-tetrahedron>
     <a-torus position = "-22 -25 44" color = "pink" radius = "11"> </a-torus>
     <a-torus-knot position = "-15 15 22" color = "orange" radius="11"></a-torus-knot>
-    <a-entity id="rig" position="25 10 0">
+    <a-entity id="rig" position="25 10 0"></a-entity>
         
-
+    
+    
 </html>
 
